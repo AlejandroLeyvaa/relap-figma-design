@@ -3,10 +3,10 @@
   --font-size-p: 1.8rem;
   --font-size-span: 1.4rem;
   --font-size-button: 1.4rem;
-  --background-color: #FFFFFF;
-  --purple-color: #C86DD7;
-  --pink-color: #FDF2FF;
-  --blue-color: #3023AE;
+  --background-color: #ffffff;
+  --purple-color: #c86dd7;
+  --pink-color: #fdf2ff;
+  --blue-color: #3023ae;
   --font-poppins: 'Poppins', sans-serif;
   --font-source: 'Source Sans Pro', sans-serif;
   --blue1: #2f80ed;
@@ -140,13 +140,13 @@ img {
 }
 
 .hero .logos-container {
-	width: inherit;
-	display: flex;
-	justify-content: center;
+  width: inherit;
+  display: flex;
+  justify-content: center;
   position: relative;
   top: 280px;
-	display: flex;
-	align-items: end;
+  display: flex;
+  align-items: end;
 }
 
 .oval2 {
@@ -281,7 +281,7 @@ img {
   opacity: 0.5;
 }
 
-.art .list :is(li) .active{
+.art .list :is(li) .active {
   font-weight: 600;
 }
 
@@ -303,13 +303,76 @@ img {
   border-radius: 25px;
   width: 170px;
   height: 48px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: var(--font-source);
   font-weight: 700;
   font-style: normal;
   font-size: 1.6rem;
   line-height: 24px;
   margin: 34px 0 48px 0;
+}
+
+.services {
+  text-align: center;
+  padding: 0 1.4rem;
+}
+
+.services .text-container {
+  text-align: center;
+  margin-top: 38px;
+  margin-bottom: 60px;
+}
+
+.services .text-container :is(h3) {
+  width: 220px;
+  height: 48px;
+  color: #333333;
+  font-family: var(--font-poppins);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4rem;
+  line-height: 48px;
+  margin: 0 auto 24px auto;
+}
+
+.services .text-container :is(p) {
+  width: 346px;
+  height: 81px;
+  color: #333333;
+  font-family: var(--font-source);
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 24px;
+}
+
+.item :is(h4) {
+  color: #333333;
+  font-family: var(--font-poppins);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.4rem;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+
+.item :is(p) {
+  color: #333333;
+  font-family: var(--font-source);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 24px;
+  margin-bottom: 60px;
+  opacity: 0.5;
+}
+
+.item-img {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 14px auto;
 }
 
 .team {

@@ -3,9 +3,9 @@ import ImageContainer from './ImageContainer';
 
 const Item = ({ cls, src, alt, title, copy }) => {
   return (
-    <article className='product-item'>
+    <article className='item'>
       <ImageContainer cls={cls} src={src} alt={alt} />
-      <h2>{title}</h2>
+      <h4>{title}</h4>
       <p>{copy}</p>
     </article>
   );
