@@ -11,8 +11,10 @@ const Presentation = () => {
         impedit quo minus id quod maxime placeat facere possimus, omnis voluptas
         assumenda est, omnis dolor repellendus.
       </p>
+      <div>
       <h3 className='presentation-hide'>Eaque ipsa quae</h3>
       <h3 className='presentation-hide'>Invebtore veritaris</h3>
+      </div>
       <div>
         <video />
       </div>

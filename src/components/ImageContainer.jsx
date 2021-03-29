@@ -4,7 +4,7 @@ const ImageContainer = ({ cls, src, alt }) => {
   return (
     <figure className={cls}>
       <picture>
-        <img src={src} alt={alt} />
+        <img src={src} alt={alt} loading='lazy' />
       </picture>
     </figure>
   );

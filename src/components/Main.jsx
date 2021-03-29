@@ -7,6 +7,7 @@ import Team from './Team';
 import Reviews from './Reviews';
 import Sponsors from './Sponsors';
 import About from './About';
+import Contact from './Contact';
 
 const Main = () => {
   return (
@@ -18,6 +19,7 @@ const Main = () => {
       <Reviews />
       <Sponsors />
       <About />
+      <Contact />
     </main>
   );
 };

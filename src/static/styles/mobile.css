@@ -149,6 +149,11 @@ img {
   align-items: end;
 }
 
+.hero .logos-container :is(.logo) {
+  margin-left: 8px;
+}
+
+
 .oval2 {
   position: absolute;
   right: 1vw;
@@ -180,13 +185,13 @@ img {
 }
 
 .presentation-title {
-  width: 357px;
+  width: 340px;
   height: 96px;
   color: #333333;
   font-family: var(--font-poppins);
   font-weight: 700;
   font-style: normal;
-  font-size: 4rem;
+  font-size: 3.8rem;
   line-height: 48px;
   margin-bottom: 17px;
 }
@@ -203,21 +208,9 @@ img {
   margin-bottom: 8px;
 }
 
-/* .presentation .presentation-copy {
-  width: 346px;
+.presentation .presentation-copy {
+  width: 340px;
   height: 98px;
-  color: #333333;
-  font-family: var(--font-source);
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.6rem;
-  line-height: 24px;
-  opacity: 0.5;
-  margin-bottom: 30px;
-} */
-
-.main :is(.presentation-copy, .art-copy) {
-  width: 346px;
   color: #333333;
   font-family: var(--font-source);
   font-weight: 400;
@@ -262,6 +255,18 @@ img {
   font-size: 4rem;
   line-height: 48px;
   margin-bottom: 24px;
+}
+
+.art-copy {
+  width: 346px;
+  color: #333333;
+  font-family: var(--font-source);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 24px;
+  opacity: 0.5;
+  margin-bottom: 30px;
 }
 
 .art .list {
@@ -379,10 +384,400 @@ img {
   background-color: var(--blue-color);
   width: inherit;
   height: 864px;
+  padding: 4rem 1.4rem 0 1.4rem;
 }
 
-.footer {
-  background-color: var(--background-color);
-  width: inherit;
-  grid-column: 1/7;
+.team-images {
+  max-height: 350px;
+}
+
+.team-images .bitmap {
+  margin-top: 60px;
+}
+
+.team-images .user1 {
+  width: max-content;
+  position: relative;
+  top: -400px;
+}
+
+.team-images .user2 {
+  width: max-content;
+  position: relative;
+  top: -430px;
+}
+
+.team-images .user3 {
+  width: max-content;
+  position: relative;
+  top: -580px;
+  left: 150px;
+}
+
+.team-images .user4 {
+  width: max-content;
+  position: relative;
+  top: -800px;
+  left: 230px;
+}
+
+.team-images .user5 {
+  width: max-content;
+  position: relative;
+  top: -1083px;
+  left: 193px;
+}
+
+.team .text-container :is(h5) {
+  color: #ffffff;
+  font-family: var(--font-poppins);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 24px;
+  margin-bottom: 17px;
+}
+
+.team .text-container :is(h3) {
+  color: #ffffff;
+  font-family: var(--font-poppins);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4rem;
+  line-height: 48px;
+  margin-bottom: 24px;
+}
+
+.team .text-container :is(p) {
+  color: #ffffff;
+  font-family: var(--font-source);
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.team .button {
+  background-color: #ffc300;
+  border-radius: 25px;
+  border: none;
+  width: 170px;
+  height: 48px;
+  color: #ffffff;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 24px;
+}
+
+.reviews {
+  padding: 54px 14px 0 14px;
+}
+
+.reviews .text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.reviews .text-container :is(h3) {
+  width: 280px;
+  height: 48px;
+  color: #333333;
+  font-family: var(--font-poppins);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4rem;
+  line-height: 48px;
+  margin-bottom: 24px;
+}
+
+.reviews .text-container :is(p) {
+  width: 346px;
+  height: 98px;
+  color: #333333;
+  font-family: var(--font-source);
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 24px;
+  margin-bottom: 48px;
+}
+
+.reviews-item {
+  border-radius: 3px;
+  box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.reviews-item .user {
+  margin: 32px 0 14px 32px;
+}
+
+.reviews-item .reviews-text {
+  width: 286px;
+  height: 80px;
+  color: #333333;
+  font-family: var(--font-source);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 24px;
+  margin: 0 auto 0 30px;
+  opacity: 0.5;
+}
+
+.reviews-item .reviews-name {
+  height: revert;
+  color: #333333;
+  font-family: var(--font-source);
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 24px;
+  margin: 16px 0 42px 30px;
+}
+
+.sponsors {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-row-gap: 40px;
+  justify-items: center;
+  padding: 40px;
+}
+
+.about {
+  background-color: var(--pink-color);
+  padding: 45px 14px 0 14px;
+}
+
+.about :is(h5) {
+  color: #333333;
+  font-family: var(--font-poppins);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 24px;
+}
+
+.about :is(h3) {
+  color: #333333;
+  font-family: var(--font-poppins);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4rem;
+  line-height: 48px;
+  margin-bottom: 24px;
+}
+
+.about :is(p) {
+  color: #333333;
+  font-family: var(--font-source);
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.about .button {
+  background-color: var(--purple-color);
+  border: none;
+  border-radius: 25px;
+  width: 170px;
+  height: 48px;
+  color: #ffffff;
+  font-family: var(--font-source);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 24px;
+  margin-bottom: 70px;
+}
+
+.about .image-container {
+  height: 350px;
+}
+
+.about .bitmap {
+  background: linear-gradient(224.72deg, #3023ae -1%, #c86dd7 100.5%);
+  width: 330px;
+  background-color: var(--purple-color);
+}
+
+.about .image-container .text-container {
+  width: max-content;
+  position: relative;
+  top: -220px;
+  left: 50px;
+}
+
+.about .image-container .text-container :is(h4) {
+  color: #ffffff;
+  font-family: var(--font-poppins);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.4rem;
+  line-height: 32px;
+  margin-bottom: 9px;
+}
+
+.about .image-container .text-container :is(p) {
+  width: 274px;
+  color: #ffffff;
+  font-family: var(--font-source);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 24px;
+  margin-bottom: 20px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.about .image-container .text-container .user-container {
+  display: flex;
+}
+
+.about .image-container .text-container .user-container :is(img) {
+  margin-right: 20px;
+}
+
+.about .image-container .text-container .user-container :is(p) {
+  width: max-content;
+  color: #ffffff;
+  font-family: var(--font-source);
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.about .bitmap img {
+  border-radius: 3px;
+  position: relative;
+  left: 20px;
+  top: -20px;
+}
+
+.contact {
+  padding-top: 70px;
+}
+
+.contact .text-container {
+  position: absolute;
+  bottom: 860px;
+  left: 14px;
+}
+
+.contact :is(h3) {
+  color: #333333;
+  font-family: var(--font-poppins);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4rem;
+  line-height: 48px;
+  margin: 0 14px 14px 14px;
+}
+
+.contact > p {
+  text-align: center;
+  margin: 0 14px 30px 14px;
+}
+
+.contact :is(p) {
+  color: #333333;
+  font-family: var(--font-source);
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 24px;
+}
+
+.contact .list li {
+  color: #333333;
+  font-family: var(--font-source);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 24px;
+  margin: 8px 14px;
+  opacity: 0.5;
+}
+
+.contact .list li:nth-child(4n) {
+  margin-bottom: 40px;
+}
+
+.contact .list :is(.section) {
+  opacity: 1;
+}
+
+
+.contact form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact form :is(input) {
+  width: 346px;
+  height: 48px;
+  border: 1px solid #DADADA;
+  border-radius: 3px;
+  margin-bottom: 16px;
+}
+
+.contact form :is(.button) {
+  background-color: var(--purple-color);
+  border: none;
+  border-radius: 25px;
+  width: 170px;
+  height: 48px;
+  color: #FFFFFF;
+  font-family: var(--font-source);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 24px;
+}
+
+.contact hr {
+  margin: 64px 0 60px 0;
+  mix-blend-mode: normal;
+  opacity: 0.1;
+}
+
+.contact .list {
+  list-style: none;
+}
+
+.footer .socialmedia {
+  padding: 0 14px;
+  display: flex;
+}
+
+.footer .socialmedia :is(img) {
+  margin: 0 10px 14px 0;
+}
+
+.footer :is(p) {
+  color: #333333;
+  font-family: var(--font-source);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 24px;
+  margin-left: 14px;
+  margin-bottom: 58px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
 }
