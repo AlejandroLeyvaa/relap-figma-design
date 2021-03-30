@@ -1,8 +1,4 @@
 @media screen and (max-width: 360px) {
-  .header {
-    background-color: red;
-  }
-
   .hero .hero-copy,
   .presentation-title,
   .presentation .presentation-copy,
@@ -11,7 +7,6 @@
   .art .list,
   .art :is(figure),
   .art :is(.button-container),
-  .services,
   .services .text-container :is(h3, p),
   .team .text-container,
   .team-images,
@@ -21,8 +16,6 @@
   .reviews .reviews-item,
   .reviews-item,
   .reviews-item .reviews-text,
-  .sponsors,
-  .about,
   .about :is(h5, h3, p),
   .about .image-container,
   .contact :is(h3, p),
@@ -30,24 +23,19 @@
   .footer,
   .footer .socialmedia {
     height: max-content;
-    width: min-content;
+    width: inherit;
     min-width: 292px;
+    max-width: 320px;
   }
 
-  .main {
-    width: 320px;
-  }
   .art .list :is(li) {
     margin: 5px;
   }
 
   .reviews-item .reviews-text {
-    min-width: 250px;
+    width: 250px;
   }
 
-  /* .team-images {
-    display: none;
-  } */
 
   .team-images .user1 {
     width: 180px;
