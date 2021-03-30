@@ -1,0 +1,118 @@
+@media screen and (max-width: 360px) {
+  .header {
+    background-color: red;
+  }
+
+  .hero .hero-copy,
+  .presentation-title,
+  .presentation .presentation-copy,
+  .art-title,
+  .art-copy,
+  .art .list,
+  .art :is(figure),
+  .art :is(.button-container),
+  .services,
+  .services .text-container :is(h3, p),
+  .team .text-container,
+  .team-images,
+  .team .text-container :is(h5, h3),
+  .reviews .text-container,
+  .reviews .text-container :is(h3, p),
+  .reviews .reviews-item,
+  .reviews-item,
+  .reviews-item .reviews-text,
+  .sponsors,
+  .about,
+  .about :is(h5, h3, p),
+  .about .image-container,
+  .contact :is(h3, p),
+  .contact .list,
+  .footer,
+  .footer .socialmedia {
+    height: max-content;
+    width: min-content;
+    min-width: 292px;
+  }
+
+  .main {
+    width: 320px;
+  }
+  .art .list :is(li) {
+    margin: 5px;
+  }
+
+  .reviews-item .reviews-text {
+    min-width: 250px;
+  }
+
+  /* .team-images {
+    display: none;
+  } */
+
+  .team-images .user1 {
+    width: 180px;
+    top: -330px;
+  }
+
+  .team-images .user2 {
+    width: 130px;
+    top: -360px;
+  }
+
+  .team-images .user3 {
+    width: 150px;
+    top: -480px;
+    left: 120px;
+  }
+
+  .team-images .user4 {
+    top: -733px;
+    left: 185px;
+  }
+
+  .team-images .user5 {
+    width: 120px;
+    top: -969px;
+    left: 144px;
+  }
+  .about .image-container {
+    height: 330px;
+  }
+
+  .about .image-container .text-container {
+    width: 230px;
+  }
+
+  .about .image-container .text-container :is(h4, p) {
+    width: 220px;
+    min-width: 200px;
+  }
+
+  .about .image-container .text-container :is(h4) {
+    font-size: 2rem;
+  }
+
+  .about .image-container .text-container :is(p) {
+    font-size: 1.4rem;
+  }
+
+  .about .image-container .text-container .user-container :is(p) {
+    min-width: 150px;
+  }
+
+  .about .image-container .text-container .user-container :is(img) {
+    width: 32px;
+  }
+
+  .about .bitmap {
+    width: 260px;
+  }
+
+  .contact form {
+    width: 100%;
+  }
+
+  .contact form input {
+    width: 90%;
+  }
+}

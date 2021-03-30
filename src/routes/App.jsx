@@ -5,6 +5,7 @@ import useInitialState from '../Hooks/useInitialState';
 import Home from '../containers/Home';
 
 import '../static/styles/mobile.css';
+import '../static/styles/width-320.css';
 
 const App = () => {
   const initialState = useInitialState();
